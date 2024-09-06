@@ -13,10 +13,10 @@ def print_triangle_of_squares(n):
         for j in range(num):
             print(value, end=" ")
             value **= 2  # Square the current value
-        print()  # Move to the next line after each row
+        print()
 
 # Sample input
-n = 4
+n = 3
 
 # Sample output
 print_triangle_of_squares(n)
